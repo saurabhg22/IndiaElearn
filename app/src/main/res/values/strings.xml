@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Leadership</string>
+    <string name="ethical_standards"><u>Ethical Standards:</u></string>
+    <string name="commitment"><u>Commitment:</u></string>
 </resources>
