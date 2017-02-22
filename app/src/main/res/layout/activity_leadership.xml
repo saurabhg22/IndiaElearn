@@ -359,8 +359,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:id="@+id/button01"
         android:text="PAY NOW WITH PayUmoney"
-        android:layout_weight="0.05" />
+        android:layout_weight="0.05"
+        android:onClick="goToSo"
+        android:elevation="24dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="Offline Mode:Contact Any of our INDIAELEARN Team for joining into SLAP. Thank you\n\nIndiaElearn\n\nLearning| Leadership | Community"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:lineSpacingMultiplier="1.14"
+        android:layout_below="@+id/button01"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.06"
+        android:textAlignment="center" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        />
+
 </LinearLayout>
 </ScrollView>
 
